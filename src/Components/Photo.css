@@ -1,0 +1,25 @@
+.photo {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.row1,
+.row2 {
+    display: flex;
+}
+.pic1 {
+    margin: 1rem;
+    background-color: antiquewhite;
+    border-radius: 3rem;
+}
+.pair {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.photo_icon {
+    padding: 0.5rem;
+    background-color: gainsboro;
+}

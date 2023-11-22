@@ -1,0 +1,18 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+.profile_pic {
+    background-color: aqua;
+    border-radius: 50%;
+    height: 3rem;
+}
+.logo_pic {
+    background-color: aqua;
+    border-radius: 50%;
+    height: 3rem;
+}
+.space {
+    margin: 4.5vh;
+}

@@ -1,0 +1,19 @@
+.head {
+    display: flex;
+    align-items: center;
+}
+.headings {
+    display: flex;
+    width: 20vw;
+}
+.right_icons {
+    display: flex;
+    width: 70vw;
+    justify-content: end;
+}
+.head_icon {
+    padding: 1rem;
+}
+.heading {
+    margin-left: 2rem;
+}

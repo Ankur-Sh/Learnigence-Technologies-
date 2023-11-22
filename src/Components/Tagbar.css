@@ -1,0 +1,41 @@
+.tagbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.list_items {
+    width: 85vw;
+}
+ul {
+    border-radius: 5rem;
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem;
+    overflow: hidden;
+
+    background-color: gainsboro;
+}
+
+li {
+    float: left;
+    margin: 0.5rem 1rem;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+    border-radius: 2rem;
+}
+
+.active {
+    border-radius: 2rem;
+    background-color: white;
+}
